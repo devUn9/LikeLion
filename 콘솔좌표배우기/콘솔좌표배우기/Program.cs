@@ -14,7 +14,7 @@ namespace 콘솔좌표배우기
             //콘솔 창 크기 설정
             Console.SetWindowSize(80, 25);
 
-            //콘솔 버퍼 크기도 설정 (스크롤 없이 고정된 창 유지
+            //콘솔 버퍼 크기도 설정
             Console.SetBufferSize(80, 25);
 
             //Console.WriteLine("콘솔 창 크기가 80x25로 설정되었습니다.");

@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{228CC960-D44F-49D9-A1F5-9544DB6C74D3}|TextGame1\\TextGame1.csproj|c:\\likelionfolder\\likelion\\textgame1\\textgame1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{228CC960-D44F-49D9-A1F5-9544DB6C74D3}|TextGame1\\TextGame1.csproj|solutionrelative:textgame1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\LikeLionfolder\\LikeLion\\\uBAA8\uD5D8\uAC00\uD0A4\uC6B0\uAE30\\\uBAA8\uD5D8\uAC00\uD0A4\uC6B0\uAE30\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\LikeLionfolder\\LikeLion\\project\uB300\uC7A5\uC7A5\uC774\uD0A4\uC6B0\uAE30\\project\uB300\uC7A5\uC7A5\uC774\uD0A4\uC6B0\uAE30\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\LikeLionfolder\\LikeLion\\TodayTask1\\TodayTask1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\LikeLionfolder\\LikeLion\\\uCF58\uC194\uC88C\uD45C\uBC30\uC6B0\uAE30\\\uCF58\uC194\uC88C\uD45C\uBC30\uC6B0\uAE30\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\LikeLionfolder\\LikeLion\\\uBAA8\uD5D8\uAC00\uD0A4\uC6B0\uAE30\\\uBAA8\uD5D8\uAC00\uD0A4\uC6B0\uAE30\\Program.cs",
+              "RelativeDocumentMoniker": "..\\\uBAA8\uD5D8\uAC00\uD0A4\uC6B0\uAE30\\\uBAA8\uD5D8\uAC00\uD0A4\uC6B0\uAE30\\Program.cs",
+              "ToolTip": "C:\\LikeLionfolder\\LikeLion\\\uBAA8\uD5D8\uAC00\uD0A4\uC6B0\uAE30\\\uBAA8\uD5D8\uAC00\uD0A4\uC6B0\uAE30\\Program.cs",
+              "RelativeToolTip": "..\\\uBAA8\uD5D8\uAC00\uD0A4\uC6B0\uAE30\\\uBAA8\uD5D8\uAC00\uD0A4\uC6B0\uAE30\\Program.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T09:08:18.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\LikeLionfolder\\LikeLion\\project\uB300\uC7A5\uC7A5\uC774\uD0A4\uC6B0\uAE30\\project\uB300\uC7A5\uC7A5\uC774\uD0A4\uC6B0\uAE30\\Program.cs",
+              "RelativeDocumentMoniker": "..\\project\uB300\uC7A5\uC7A5\uC774\uD0A4\uC6B0\uAE30\\project\uB300\uC7A5\uC7A5\uC774\uD0A4\uC6B0\uAE30\\Program.cs",
+              "ToolTip": "C:\\LikeLionfolder\\LikeLion\\project\uB300\uC7A5\uC7A5\uC774\uD0A4\uC6B0\uAE30\\project\uB300\uC7A5\uC7A5\uC774\uD0A4\uC6B0\uAE30\\Program.cs",
+              "RelativeToolTip": "..\\project\uB300\uC7A5\uC7A5\uC774\uD0A4\uC6B0\uAE30\\project\uB300\uC7A5\uC7A5\uC774\uD0A4\uC6B0\uAE30\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:26:10.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\LikeLionfolder\\LikeLion\\\uCF58\uC194\uC88C\uD45C\uBC30\uC6B0\uAE30\\\uCF58\uC194\uC88C\uD45C\uBC30\uC6B0\uAE30\\Program.cs",
+              "RelativeDocumentMoniker": "..\\\uCF58\uC194\uC88C\uD45C\uBC30\uC6B0\uAE30\\\uCF58\uC194\uC88C\uD45C\uBC30\uC6B0\uAE30\\Program.cs",
+              "ToolTip": "C:\\LikeLionfolder\\LikeLion\\\uCF58\uC194\uC88C\uD45C\uBC30\uC6B0\uAE30\\\uCF58\uC194\uC88C\uD45C\uBC30\uC6B0\uAE30\\Program.cs",
+              "RelativeToolTip": "..\\\uCF58\uC194\uC88C\uD45C\uBC30\uC6B0\uAE30\\\uCF58\uC194\uC88C\uD45C\uBC30\uC6B0\uAE30\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADUAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T07:39:25.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\LikeLionfolder\\LikeLion\\TodayTask1\\TodayTask1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\TodayTask1\\TodayTask1\\Program.cs",
+              "ToolTip": "C:\\LikeLionfolder\\LikeLion\\TodayTask1\\TodayTask1\\Program.cs",
+              "RelativeToolTip": "..\\TodayTask1\\TodayTask1\\Program.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAAI4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T07:31:08.782Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +100,7 @@
               "RelativeDocumentMoniker": "TextGame1\\Program.cs",
               "ToolTip": "C:\\LikeLionfolder\\LikeLion\\TextGame1\\TextGame1\\Program.cs",
               "RelativeToolTip": "TextGame1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAAAP0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T09:26:25.513Z",
               "EditorCaption": ""
