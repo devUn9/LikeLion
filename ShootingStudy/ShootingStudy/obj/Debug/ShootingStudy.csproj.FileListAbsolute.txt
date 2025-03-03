@@ -1,0 +1,7 @@
+C:\LikeLionfolder\LikeLion\ShootingStudy\ShootingStudy\bin\Debug\ShootingStudy.exe.config
+C:\LikeLionfolder\LikeLion\ShootingStudy\ShootingStudy\bin\Debug\ShootingStudy.exe
+C:\LikeLionfolder\LikeLion\ShootingStudy\ShootingStudy\bin\Debug\ShootingStudy.pdb
+C:\LikeLionfolder\LikeLion\ShootingStudy\ShootingStudy\obj\Debug\ShootingStudy.csproj.AssemblyReference.cache
+C:\LikeLionfolder\LikeLion\ShootingStudy\ShootingStudy\obj\Debug\ShootingStudy.csproj.CoreCompileInputs.cache
+C:\LikeLionfolder\LikeLion\ShootingStudy\ShootingStudy\obj\Debug\ShootingStudy.exe
+C:\LikeLionfolder\LikeLion\ShootingStudy\ShootingStudy\obj\Debug\ShootingStudy.pdb

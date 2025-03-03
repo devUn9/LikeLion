@@ -84,17 +84,38 @@ namespace TextGame1
             Console.SetCursorPosition(0, 24);
             Console.Write("┖━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
 
-            Thread.Sleep(5000);
+            Thread.Sleep(10000);
             Console.ForegroundColor = ConsoleColor.White;
 
             Random rand = new Random();
-            int gold = 1000;
-            int health = 100;
+            int level = 1;
+            int gold = 0;
+            int health = 10;
             int power = 10;
+            
+            int enforcelevel = 1;
+            int evolutionlevel = 1;
+
+            int minusprob = 0;
+
+
+            int x = 1;
+            int y = 6;
+
+            int expense = 100;
+            int expense2 = 50;
+
+
             string catname = "냥냥이";
+            string skillname = "냥냥펀치";
+
+            bool enforcesuccess = false;
             //bool isAlive = true;
 
             init();
+
+            Console.CursorVisible = false;
+
 
             void init()
             {
@@ -108,7 +129,13 @@ namespace TextGame1
                 while (true)
                 {
                     Console.Clear(); // 화면을 지움
-                    Console.WriteLine("\n 캣월드에 오신것을 환영합니다 ! \n\n (↑↓ 방향키 이동, SPACE 선택)\n");
+                    Console.WriteLine("\n 캣월드에 오신것을 환영합니다 ! \n\n (↑↓ 방향키 이동, SPACE 선택)");
+
+                    Console.SetCursorPosition(0, 15);
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.Write("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n");
+                    Console.ForegroundColor = ConsoleColor.White;
+
 
                     // 선택지를 출력
                     for (int i = 0; i < options.Length; i++)
@@ -146,9 +173,12 @@ namespace TextGame1
                 }
             }
 
-            void ganghwa()
+            void Ganghwa()
             {
                 Console.Clear();
+
+
+
 
                 string[] options = { "강화하기\n", "진화하기\n", "뒤로\n" };
                 int selectedIndex = 0;
@@ -158,7 +188,71 @@ namespace TextGame1
                 while (true)
                 {
                     Console.Clear(); // 화면을 지움
-                    Console.WriteLine("\n 이곳에서는 고양이를 성장시킬 수 있습니다 ! \n");
+
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.Write("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write($" 레벨 {level} {catname} ");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write($" 체력 {health} ");
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.Write($" 공격력 {power} ");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write($" 골드 {gold}\n");
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.Write("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n");
+
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("\n <캣타워> 에서는 고양이를 성장시킬 수 있습니다. \n");
+
+
+
+
+                    switch (catname)
+                    {
+                        case "냥냥이":
+
+                            Console.ForegroundColor = ConsoleColor.DarkYellow;
+                            Console.WriteLine(@"  /\_/\ ");
+                            Console.WriteLine(@" ( o.o )");
+                            Console.WriteLine(@" <  ^   > /");
+                            Console.WriteLine(@" (______)/");
+
+
+                            Console.ForegroundColor = ConsoleColor.White;
+
+
+                            break;
+
+                        case "킹냥이":
+
+                            Console.ForegroundColor = ConsoleColor.DarkYellow;
+
+                            Console.WriteLine(@"  /フ_/フ ");
+                            Console.WriteLine(@" ( >.< )");
+                            Console.WriteLine(@" <  ^   > /");
+                            Console.WriteLine(@" (______)/");
+
+
+                            Console.ForegroundColor = ConsoleColor.White;
+
+
+                            break;
+                    }
+
+
+
+
+
+                    Console.WriteLine($"\n 강화 확률 : {100 - minusprob} %");
+                    Console.WriteLine($" 강화 골드 : {expense} 골드");
+
+                    Console.WriteLine("\n 레벨이 5일 때 진화시킬 수 있습니다.");
+
+                    Console.SetCursorPosition(0, 15);
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.Write("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n");
+                    Console.ForegroundColor = ConsoleColor.White;
 
                     // 선택지를 출력
                     for (int i = 0; i < options.Length; i++)
@@ -190,9 +284,12 @@ namespace TextGame1
                         case ConsoleKey.Spacebar:      // 스페이스바 키
                             Console.Clear();
 
-                            init();
+                            Menu2(selectedIndex);
                             return; // 프로그램 종료 또는 다음 로직 실행
+
                     }
+
+
                 }
             }
 
@@ -206,7 +303,7 @@ namespace TextGame1
                         Advanture();
                         break;
                     case 1: // "고양이 진화"
-                        ganghwa();
+                        Ganghwa();
 
                         break;
                     case 2: // "생선 가게"
@@ -223,72 +320,326 @@ namespace TextGame1
                 }
             }
 
+            void Menu2(int selected)
+            {
+                switch (selected)
+                {
+                    case 0: // "강화하기"
+                        if (gold >= expense)
+                        {
+                            Enforce();
+                        }
+                        else
+                        {
+                            Ganghwa();
+                        }
+
+                        break;
+                    case 1: // "진화하기"
+                        Evolution();
+
+                        break;
+                    case 2:
+                        init();
+                        return;
+
+                    default:
+                        Console.WriteLine("잘못된 선택입니다.");
+                        break;
+                }
+            }
+
+            void Menu3(int selected)
+            {
+                switch (selected)
+                {
+                    case 0: // "생선 구매"
+                        if (gold >= expense2)
+                        {
+                            Buyfish();
+                        }
+                        else
+                        {
+                            shop();
+                        }
+
+                        break;
+                    case 1: // "츄르 구매"
+                        if (gold >= expense2*3)
+                            Buychur();
+                        else
+                        {
+                            shop();
+                        }
+
+                        break;
+                    case 2:
+                        init();
+                        return;
+
+                    default:
+                        Console.WriteLine("잘못된 선택입니다.");
+                        break;
+                }
+            }
+
+            void Buyfish()
+            {
+               
+                    gold -= 50;
+                    BuyfishAnim();
+                    shop();
+               
+               
+            }
+            void Buychur()
+            {
+                
+                    gold -= 150;
+                    BuychurAnim();
+                    shop();
+                
+               
+            }
+
+            void BuyfishAnim()
+            {
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("\n  >< (((°>");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\n   \\(^)/");
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("\n  >< (((°>");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\n \\\\((^))//");
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("\n  >< (((°>");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\n   \\(^)/");
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("\n  >< (((°>");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\n \\\\((^))//");
+                Console.ForegroundColor = ConsoleColor.White;
+                Thread.Sleep(500);
+
+
+
+                Console.WriteLine($"\n 생선구이 구매에 성공했습니다 !");
+
+                health += 5;
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine($"\n 체력 : {health} (+ 5)");
+
+
+                Thread.Sleep(2000);
+
+            }
+
+            void BuychurAnim()
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\n |￣￣￣￣￣￣￣￣￣￣￣￣￣￣|");
+                Console.WriteLine(" |         >< (((°>          |");
+                Console.WriteLine(" |＿＿＿＿＿＿＿＿＿＿＿＿＿＿|");
+                Console.ForegroundColor = ConsoleColor.White;
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\n |￣￣￣￣￣￣￣￣￣￣￣￣￣￣|");
+                Console.WriteLine(" |         >< (((°>          |");
+                Console.WriteLine(" |＿＿＿＿＿＿＿＿＿＿＿＿＿＿/");
+                Console.ForegroundColor = ConsoleColor.White;
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\n |￣￣￣￣￣￣￣￣￣￣￣￣￣￣|");
+                Console.WriteLine(" |         >< (((°>          /");
+                Console.WriteLine(" |＿＿＿＿＿＿＿＿＿＿＿＿＿＿/");
+                Console.ForegroundColor = ConsoleColor.White;
+                Thread.Sleep(500);
+                Console.Clear();
+
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\n |￣￣￣￣￣￣￣￣￣￣￣￣￣￣/");
+                Console.WriteLine(" |         >< (((°>         /");
+                Console.WriteLine(" |＿＿＿＿＿＿＿＿＿＿＿＿＿/");
+                Console.ForegroundColor = ConsoleColor.White;
+                Thread.Sleep(500);
+
+                Console.WriteLine($"\n 생선츄르 구매에 성공했습니다 !");
+
+                health += 15;
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine($"\n 체력 : {health} (+ 10)");
+
+
+                Thread.Sleep(2000);
+
+
+            }
+
+
+
             void Advanture()
             {
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Blue;
 
-                Console.Write("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n");
+                Console.Write("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n");
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.Write($" 레벨 {level} {catname} ");
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write($" 체력 {health} ");
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.Write($" 공격력 {power} ");
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.Write($" 골드 {gold}\n");
-
                 Console.ForegroundColor = ConsoleColor.Blue;
-                Console.Write("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n");
+                Console.Write("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n");
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("\n 모험을 시작합니다.");
                 Thread.Sleep(1000);
 
-                Console.WriteLine($"\n 가자 {catname} ! \n");
-
-                Console.ForegroundColor = ConsoleColor.DarkYellow;
-                Console.WriteLine(@"  /\_/\ ");
-                Console.WriteLine(@" ( o.o )");
-                Console.WriteLine(@" <  ^   > /");
-                Console.WriteLine(@" (______)/");
-                Console.ForegroundColor = ConsoleColor.White;
-
+                Console.WriteLine($"\n 가라 {catname} ! \n");
                 Thread.Sleep(1000);
+
+                switch (catname)
+                {
+                    case "냥냥이":
+
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+                        Console.WriteLine(@"  /\_/\ ");
+                        Console.WriteLine(@" ( o.o )");
+                        Console.WriteLine(@" <  ^   > /");
+                        Console.WriteLine(@" (______)/");
+
+
+                        Console.ForegroundColor = ConsoleColor.White;
+
+                        Thread.Sleep(1000);
+                        break;
+
+                    case "킹냥이":
+
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+
+                        Console.WriteLine(@"  /フ_/フ ");
+                        Console.WriteLine(@" ( o.o )");
+                        Console.WriteLine(@" <  ^   > /");
+                        Console.WriteLine(@" (______)/");
+
+
+                        Console.ForegroundColor = ConsoleColor.White;
+
+                        Thread.Sleep(1000);
+                        break;
+                }
+
+
 
                 int eventChance = rand.Next(1, 101); // 1~100 랜덤 이벤트 발생 //// 확률 바꿔놓음!!!!!!!!!!!
 
-                if (eventChance <= 45) // 30%확률로 전투 발생
+                if (eventChance <= 50) // 70%확률로 전투 발생
                 {
-                    int damage = rand.Next(200, 300);
-                    Console.Write($"\n 괴물 쥐를 만났습니다...");
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.Write($" 체력 -{damage}\n");
-                    health -= damage;
+                    int monsterhealth = rand.Next(x, y);
 
-                    Thread.Sleep(1000);
+                    int damage = rand.Next(x, y);
+
+                    Console.Write("\n 체력이");
+
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write($" {monsterhealth} ");
+
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write("공격력이");
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.Write($" {damage}");
+
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write("인 몬스터를 만났습니다! \n");
+
+
+                    Thread.Sleep(2000);
+
+                    x += 3; y += 3;
+                    
+
+
+                    if (power > monsterhealth)
+                    {
+
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+
+                        Console.WriteLine($"\n {catname}의 {skillname} ! ");
+
+                        Thread.Sleep(1000);
+
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.Write($"\n {power}의 데미지를 입혀 몬스터를 쓰러뜨렸습니다 !");
+
+                        int reward = rand.Next(150+x*10, 300+y*10); // 100~300 골드
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.Write($" 골드 +{reward}\n");
+                        gold += reward;
+
+                        Thread.Sleep(2000);
+                    }
+                    else
+                    {
+                        Console.Write($"\n 몬스터에게 공격 당했습니다 !");
+
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.Write($" 체력 -{damage}\n");
+                        health -= damage;
+
+                        Thread.Sleep(2000);
+                    }
+
+
 
                 }
-                else if (eventChance <= 50)
+                else if (eventChance <= 75)
                 {
                     int reward = rand.Next(100, 301); // 100~300 골드
-                    Console.WriteLine($" 보물을 발견했습니다 ! (골드 +{reward})");
+
+                    Console.Write("\n 보물을 발견했습니다 !");
+
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write($" 골드 +{reward}\n");
+
                     gold += reward;
+
+                    Thread.Sleep(2000);
                 }
                 else
                 {
-                    int heal = rand.Next(10, 31); // 10~30 체력 회복
+                    int heal = rand.Next(5, 10); // 10~30 체력 회복
                     Console.Write($"\n 생선을 발견했습니다 !");
 
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write($" 체력 +{heal}\n");
                     health += heal;
 
-                    Thread.Sleep(1000);
+                    Thread.Sleep(2000);
                 }
 
                 if (health <= 0)
                 {
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.Write("\n 체력이 0이 되어 쓰러졌습니다... 게임 오버!\n");
-                    Thread.Sleep(1000);
+                    Thread.Sleep(3000);
                     //isAlive = false;// 아직 안쓰임
                     GameOver();
                 }
@@ -313,7 +664,38 @@ namespace TextGame1
                 while (true)
                 {
                     Console.Clear(); // 화면을 지움
-                    Console.WriteLine("\n 이곳에서는 생선을 살 수 있습니다 ! \n");
+
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.Write("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write($" 레벨 {level} {catname} ");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write($" 체력 {health} ");
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.Write($" 공격력 {power} ");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write($" 골드 {gold}\n");
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.Write("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n");
+
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("\n <생선가게> 에서는 생선을 구매할 수 있습니다. \n");
+
+
+
+                    Console.Write("\n 생선구이는 5의 체력을 올려줍니다.");
+                    Console.WriteLine($"\n 가격 : 50 골드");
+   
+                    Console.Write("\n 생선츄르는 15의 체력을 올려줍니다.");
+                    Console.WriteLine($"\n 가격 : 150 골드");
+
+
+
+
+                    Console.SetCursorPosition(0, 15);
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.Write("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n");
+                    Console.ForegroundColor = ConsoleColor.White;
 
                     // 선택지를 출력
                     for (int i = 0; i < options.Length; i++)
@@ -345,11 +727,281 @@ namespace TextGame1
                         case ConsoleKey.Spacebar:      // 스페이스바 키
                             Console.Clear();
 
-                            init();
+                            Menu3(selectedIndex);
                             return; // 프로그램 종료 또는 다음 로직 실행
+
+
                     }
                 }
             }
+
+
+
+
+            void EnforceAnim(int e)
+            {
+                if (evolutionlevel == 1)
+                {
+                    if (enforcesuccess)
+                    {
+                        Console.WriteLine();
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+                        Console.WriteLine(@"  /\_/\ ");
+                        Console.WriteLine(@" ( o.o )");
+                        Console.WriteLine(@" <  ^   > /");
+                        Console.WriteLine(@" (______)/");
+                        Thread.Sleep(500);
+                        Console.Clear();
+
+                        Console.WriteLine();
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+                        Console.WriteLine(@"  /\_/\ ");
+                        Console.WriteLine(@" ( o.o )");
+                        Console.WriteLine(@" >  ^   < /");
+                        Console.WriteLine(@" (______)/");
+                        Thread.Sleep(500);
+                        Console.Clear();
+
+                        Console.WriteLine();
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+                        Console.WriteLine(@"  /\_/\ ");
+                        Console.WriteLine(@" ( >.< )");
+                        Console.WriteLine(@" <  ^   > /");
+                        Console.WriteLine(@" (______)/");
+
+
+                        Console.WriteLine($"\n 레벨 {e} 강화에 성공했습니다 !");
+
+                        power += 5;
+                        Console.ForegroundColor = ConsoleColor.Cyan;
+                        Console.WriteLine($"\n 공격력 : {power} (+ 5)");
+
+
+                        Thread.Sleep(1500);
+                    }
+                    else
+                    {
+                        Console.WriteLine();
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+                        Console.WriteLine(@"  /\_/\ ");
+                        Console.WriteLine(@" ( o.o )");
+                        Console.WriteLine(@" <  ^   > /");
+                        Console.WriteLine(@" (______)/");
+                        Thread.Sleep(500);
+                        Console.Clear();
+
+                        Console.WriteLine();
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+                        Console.WriteLine(@"  /\_/\ ");
+                        Console.WriteLine(@" ( o.o )");
+                        Console.WriteLine(@" >  ^   < /");
+                        Console.WriteLine(@" (______)/");
+                        Thread.Sleep(500);
+                        Console.Clear();
+
+                        Console.WriteLine();
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+                        Console.WriteLine(@"  /\_/\ ");
+                        Console.WriteLine(@" (ㅠ.ㅠ )");
+                        Console.WriteLine(@" <  ^   > /");
+                        Console.WriteLine(@" (______)/");
+
+
+                        Console.WriteLine($"\n 레벨 {e + 1} 강화에 실패했습니다 !");
+                        Thread.Sleep(1500);
+                    }
+
+
+                }
+
+            }
+
+            void EvolutionAnim()
+            {
+                if (catname == "냥냥이")
+                {
+                    Console.WriteLine();
+
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    Console.WriteLine(@"  /\_/\ ");
+                    Console.WriteLine(@" ( o.o )");
+                    Console.WriteLine(@" <  ^   > /");
+                    Console.WriteLine(@" (______)/");
+                    Thread.Sleep(500);
+                    Console.Clear();
+
+                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    Console.WriteLine(@"  /\_/\ ");
+                    Console.WriteLine(@" ( o.o )");
+                    Console.WriteLine(@" >  ^   < /");
+                    Console.WriteLine(@" (______)/");
+                    Thread.Sleep(500);
+                    Console.Clear();
+
+                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    Console.WriteLine(@"  /\_/\ ");
+                    Console.WriteLine(@" ( o.o )");
+                    Console.WriteLine(@" <  ^   > /");
+                    Console.WriteLine(@" (______)/");
+
+                    Console.WriteLine($"\n {catname}의 상태가.");
+                    Thread.Sleep(500);
+                    Console.Clear();
+
+                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    Console.WriteLine(@"  /\_/\ ");
+                    Console.WriteLine(@" ( o.o )");
+                    Console.WriteLine(@" <  ^   > /");
+                    Console.WriteLine(@" (______)/");
+
+                    Console.WriteLine($"\n {catname}의 상태가..");
+                    Thread.Sleep(500);
+                    Console.Clear();
+
+                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    Console.WriteLine(@"  /\_/\ ");
+                    Console.WriteLine(@" ( o.o )");
+                    Console.WriteLine(@" <  ^   > /");
+                    Console.WriteLine(@" (______)/");
+
+                    Console.WriteLine($"\n {catname}의 상태가...");
+                    Thread.Sleep(500);
+                    Console.Clear();
+
+                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    Console.WriteLine(@"  /\_/\ ");
+                    Console.WriteLine(@" ( o.o )");
+                    Console.WriteLine(@" <  ^   > /");
+                    Console.WriteLine(@" (______)/");
+
+                    Console.WriteLine($"\n {catname}의 상태가...?");
+                    Thread.Sleep(500);
+                    Console.Clear();
+
+                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    Console.WriteLine(@"  /フ_/フ ");
+                    Console.WriteLine(@" ( o.o )");
+                    Console.WriteLine(@" <  ^   > /");
+                    Console.WriteLine(@" (______)/");
+
+                    Console.WriteLine($"\n {catname}의 상태가...?");
+                    Thread.Sleep(500);
+                    Console.Clear();
+
+                    Console.WriteLine();
+
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    Console.WriteLine(@"  /\_/\ ");
+                    Console.WriteLine(@" ( o.o )");
+                    Console.WriteLine(@" <  ^   > /");
+                    Console.WriteLine(@" (______)/");
+
+                    Console.WriteLine($"\n {catname}의 상태가...?");
+                    Thread.Sleep(1000);
+                    Console.Clear();
+
+                    Console.WriteLine();
+                    Console.WriteLine(@"  /フ_/フ ");
+                    Console.WriteLine(@" ( o.o )");
+                    Console.WriteLine(@" <  ^   > /");
+                    Console.WriteLine(@" (______)/");
+
+                    Console.WriteLine($"\n {catname}의 상태가...?");
+                    Thread.Sleep(2000);
+                    Console.Clear();
+
+                    catname = "킹냥이";
+                    skillname = "고속냥냥펀치";
+
+                    power += 30;
+                    level = 1;
+
+
+                    Console.WriteLine();
+                    Console.WriteLine(@"  /フ_/フ ");
+                    Console.WriteLine(@" ( >.< )");
+                    Console.WriteLine(@" <  ^   > /");
+                    Console.WriteLine(@" (______)/");
+                    Console.Write($"\n {catname}로 진화했습니다 ! ");
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.Write($" 공격력 : {power} (+ 30)\n");
+
+
+                    Thread.Sleep(3000);
+
+                    Ganghwa();
+                }
+
+
+
+            }
+
+            void Enforce()
+            {
+                int number = rand.Next(1, 101); // 1~100
+
+                if (level < 5)
+                {
+
+                    if (number > minusprob)
+                    {
+
+                        enforcesuccess = true;
+
+                        gold -= expense;
+                        level += 1;
+                        expense += 100;
+
+                        EnforceAnim(level);
+
+                        minusprob += 10;
+                        Ganghwa();
+
+
+                    }
+                    else
+                    {
+                        enforcesuccess = false;
+                        gold -= expense;
+
+
+                        EnforceAnim(level);
+
+                        Ganghwa();
+
+
+                    }
+
+                }
+                else
+                {
+                    Ganghwa();
+                }
+
+            }
+
+            void Evolution()
+            {
+                if (level == 5)
+                {
+
+                    EvolutionAnim();
+
+                }
+                else
+                {
+                    Ganghwa();
+                }
+            }
+
+
+
             void GameOver()
             {
                 Console.Clear();
@@ -408,8 +1060,6 @@ namespace TextGame1
                 Environment.Exit(1);
             }
         }
-       
-
 
 
     }

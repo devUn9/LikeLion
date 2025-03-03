@@ -1,0 +1,7 @@
+C:\LikeLionfolder\LikeLion\ShootingGame3\ShootingGame3\bin\Debug\ShootingGame3.exe.config
+C:\LikeLionfolder\LikeLion\ShootingGame3\ShootingGame3\bin\Debug\ShootingGame3.exe
+C:\LikeLionfolder\LikeLion\ShootingGame3\ShootingGame3\bin\Debug\ShootingGame3.pdb
+C:\LikeLionfolder\LikeLion\ShootingGame3\ShootingGame3\obj\Debug\ShootingGame3.csproj.AssemblyReference.cache
+C:\LikeLionfolder\LikeLion\ShootingGame3\ShootingGame3\obj\Debug\ShootingGame3.csproj.CoreCompileInputs.cache
+C:\LikeLionfolder\LikeLion\ShootingGame3\ShootingGame3\obj\Debug\ShootingGame3.exe
+C:\LikeLionfolder\LikeLion\ShootingGame3\ShootingGame3\obj\Debug\ShootingGame3.pdb

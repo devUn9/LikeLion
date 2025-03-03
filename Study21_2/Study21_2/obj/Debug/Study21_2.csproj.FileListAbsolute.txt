@@ -1,0 +1,7 @@
+C:\LikeLionfolder\LikeLion\Study21_2\Study21_2\bin\Debug\Study21_2.exe.config
+C:\LikeLionfolder\LikeLion\Study21_2\Study21_2\bin\Debug\Study21_2.exe
+C:\LikeLionfolder\LikeLion\Study21_2\Study21_2\bin\Debug\Study21_2.pdb
+C:\LikeLionfolder\LikeLion\Study21_2\Study21_2\obj\Debug\Study21_2.csproj.AssemblyReference.cache
+C:\LikeLionfolder\LikeLion\Study21_2\Study21_2\obj\Debug\Study21_2.csproj.CoreCompileInputs.cache
+C:\LikeLionfolder\LikeLion\Study21_2\Study21_2\obj\Debug\Study21_2.exe
+C:\LikeLionfolder\LikeLion\Study21_2\Study21_2\obj\Debug\Study21_2.pdb
