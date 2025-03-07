@@ -1,0 +1,7 @@
+C:\LikeLionfolder\LikeLion\TextRPG1_0_0\TextRPG1_0_0\bin\Debug\TextRPG1_0_0.exe.config
+C:\LikeLionfolder\LikeLion\TextRPG1_0_0\TextRPG1_0_0\bin\Debug\TextRPG1_0_0.exe
+C:\LikeLionfolder\LikeLion\TextRPG1_0_0\TextRPG1_0_0\bin\Debug\TextRPG1_0_0.pdb
+C:\LikeLionfolder\LikeLion\TextRPG1_0_0\TextRPG1_0_0\obj\Debug\TextRPG1_0_0.csproj.AssemblyReference.cache
+C:\LikeLionfolder\LikeLion\TextRPG1_0_0\TextRPG1_0_0\obj\Debug\TextRPG1_0_0.csproj.CoreCompileInputs.cache
+C:\LikeLionfolder\LikeLion\TextRPG1_0_0\TextRPG1_0_0\obj\Debug\TextRPG1_0_0.exe
+C:\LikeLionfolder\LikeLion\TextRPG1_0_0\TextRPG1_0_0\obj\Debug\TextRPG1_0_0.pdb

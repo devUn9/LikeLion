@@ -1,0 +1,7 @@
+C:\LikeLionfolder\LikeLion\Task250306_2\Task250306_2\obj\Debug\Task250306_2.csproj.AssemblyReference.cache
+C:\LikeLionfolder\LikeLion\Task250306_2\Task250306_2\obj\Debug\Task250306_2.csproj.CoreCompileInputs.cache
+C:\LikeLionfolder\LikeLion\Task250306_2\Task250306_2\bin\Debug\Task250306_2.exe.config
+C:\LikeLionfolder\LikeLion\Task250306_2\Task250306_2\bin\Debug\Task250306_2.exe
+C:\LikeLionfolder\LikeLion\Task250306_2\Task250306_2\bin\Debug\Task250306_2.pdb
+C:\LikeLionfolder\LikeLion\Task250306_2\Task250306_2\obj\Debug\Task250306_2.exe
+C:\LikeLionfolder\LikeLion\Task250306_2\Task250306_2\obj\Debug\Task250306_2.pdb

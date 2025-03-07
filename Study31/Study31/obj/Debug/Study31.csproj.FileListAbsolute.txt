@@ -1,0 +1,7 @@
+C:\LikeLionfolder\LikeLion\Study31\Study31\bin\Debug\Study31.exe.config
+C:\LikeLionfolder\LikeLion\Study31\Study31\bin\Debug\Study31.exe
+C:\LikeLionfolder\LikeLion\Study31\Study31\bin\Debug\Study31.pdb
+C:\LikeLionfolder\LikeLion\Study31\Study31\obj\Debug\Study31.csproj.AssemblyReference.cache
+C:\LikeLionfolder\LikeLion\Study31\Study31\obj\Debug\Study31.csproj.CoreCompileInputs.cache
+C:\LikeLionfolder\LikeLion\Study31\Study31\obj\Debug\Study31.exe
+C:\LikeLionfolder\LikeLion\Study31\Study31\obj\Debug\Study31.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatWorld", "CatWorld\CatWorld.csproj", "{B4CE99A7-94EB-4713-A711-3F6157EFD391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4CE99A7-94EB-4713-A711-3F6157EFD391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CE99A7-94EB-4713-A711-3F6157EFD391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CE99A7-94EB-4713-A711-3F6157EFD391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CE99A7-94EB-4713-A711-3F6157EFD391}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {094FC742-CC70-4BBE-9B40-68AD4051756A}
+	EndGlobalSection
+EndGlobal

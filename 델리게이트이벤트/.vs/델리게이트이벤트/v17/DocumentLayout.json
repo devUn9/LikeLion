@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\LikeLionfolder\\LikeLion\\\uB378\uB9AC\uAC8C\uC774\uD2B8\uC774\uBCA4\uD2B8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB7A00D8-4F4D-4E73-AD6B-39A28FF798E2}|\uB378\uB9AC\uAC8C\uC774\uD2B8\uC774\uBCA4\uD2B8\\\uB378\uB9AC\uAC8C\uC774\uD2B8\uC774\uBCA4\uD2B8.csproj|c:\\likelionfolder\\likelion\\\uB378\uB9AC\uAC8C\uC774\uD2B8\uC774\uBCA4\uD2B8\\\uB378\uB9AC\uAC8C\uC774\uD2B8\uC774\uBCA4\uD2B8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB7A00D8-4F4D-4E73-AD6B-39A28FF798E2}|\uB378\uB9AC\uAC8C\uC774\uD2B8\uC774\uBCA4\uD2B8\\\uB378\uB9AC\uAC8C\uC774\uD2B8\uC774\uBCA4\uD2B8.csproj|solutionrelative:\uB378\uB9AC\uAC8C\uC774\uD2B8\uC774\uBCA4\uD2B8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\LikeLionfolder\\LikeLion\\\uB378\uB9AC\uAC8C\uC774\uD2B8\uC774\uBCA4\uD2B8\\\uB378\uB9AC\uAC8C\uC774\uD2B8\uC774\uBCA4\uD2B8\\Program.cs",
+              "RelativeDocumentMoniker": "\uB378\uB9AC\uAC8C\uC774\uD2B8\uC774\uBCA4\uD2B8\\Program.cs",
+              "ToolTip": "C:\\LikeLionfolder\\LikeLion\\\uB378\uB9AC\uAC8C\uC774\uD2B8\uC774\uBCA4\uD2B8\\\uB378\uB9AC\uAC8C\uC774\uD2B8\uC774\uBCA4\uD2B8\\Program.cs",
+              "RelativeToolTip": "\uB378\uB9AC\uAC8C\uC774\uD2B8\uC774\uBCA4\uD2B8\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T00:14:16.738Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

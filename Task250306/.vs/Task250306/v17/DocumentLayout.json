@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\LikeLionfolder\\LikeLion\\Task250306\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{933ACF6C-1B04-480D-9751-A08BA15AE742}|Task250306\\Task250306.csproj|c:\\likelionfolder\\likelion\\task250306\\task250306\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933ACF6C-1B04-480D-9751-A08BA15AE742}|Task250306\\Task250306.csproj|solutionrelative:task250306\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933ACF6C-1B04-480D-9751-A08BA15AE742}|Task250306\\Task250306.csproj|c:\\likelionfolder\\likelion\\task250306\\task250306\\compose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933ACF6C-1B04-480D-9751-A08BA15AE742}|Task250306\\Task250306.csproj|solutionrelative:task250306\\compose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933ACF6C-1B04-480D-9751-A08BA15AE742}|Task250306\\Task250306.csproj|c:\\likelionfolder\\likelion\\task250306\\task250306\\coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933ACF6C-1B04-480D-9751-A08BA15AE742}|Task250306\\Task250306.csproj|solutionrelative:task250306\\coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933ACF6C-1B04-480D-9751-A08BA15AE742}|Task250306\\Task250306.csproj|c:\\likelionfolder\\likelion\\task250306\\task250306\\mega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933ACF6C-1B04-480D-9751-A08BA15AE742}|Task250306\\Task250306.csproj|solutionrelative:task250306\\mega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933ACF6C-1B04-480D-9751-A08BA15AE742}|Task250306\\Task250306.csproj|c:\\likelionfolder\\likelion\\task250306\\task250306\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{933ACF6C-1B04-480D-9751-A08BA15AE742}|Task250306\\Task250306.csproj|solutionrelative:task250306\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\LikeLionfolder\\LikeLion\\StudyLOL\\StudyLOL\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mega.cs",
+              "DocumentMoniker": "C:\\LikeLionfolder\\LikeLion\\Task250306\\Task250306\\Mega.cs",
+              "RelativeDocumentMoniker": "Task250306\\Mega.cs",
+              "ToolTip": "C:\\LikeLionfolder\\LikeLion\\Task250306\\Task250306\\Mega.cs",
+              "RelativeToolTip": "Task250306\\Mega.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T06:58:25.006Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Compose.cs",
+              "DocumentMoniker": "C:\\LikeLionfolder\\LikeLion\\Task250306\\Task250306\\Compose.cs",
+              "RelativeDocumentMoniker": "Task250306\\Compose.cs",
+              "ToolTip": "C:\\LikeLionfolder\\LikeLion\\Task250306\\Task250306\\Compose.cs",
+              "RelativeToolTip": "Task250306\\Compose.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T07:29:00.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\LikeLionfolder\\LikeLion\\Task250306\\Task250306\\App.config",
+              "RelativeDocumentMoniker": "Task250306\\App.config",
+              "ToolTip": "C:\\LikeLionfolder\\LikeLion\\Task250306\\Task250306\\App.config",
+              "RelativeToolTip": "Task250306\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-06T07:07:58.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\LikeLionfolder\\LikeLion\\StudyLOL\\StudyLOL\\Program.cs",
+              "RelativeDocumentMoniker": "..\\StudyLOL\\StudyLOL\\Program.cs",
+              "ToolTip": "C:\\LikeLionfolder\\LikeLion\\StudyLOL\\StudyLOL\\Program.cs",
+              "RelativeToolTip": "..\\StudyLOL\\StudyLOL\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T07:05:05.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Coffee.cs",
+              "DocumentMoniker": "C:\\LikeLionfolder\\LikeLion\\Task250306\\Task250306\\Coffee.cs",
+              "RelativeDocumentMoniker": "Task250306\\Coffee.cs",
+              "ToolTip": "C:\\LikeLionfolder\\LikeLion\\Task250306\\Task250306\\Coffee.cs",
+              "RelativeToolTip": "Task250306\\Coffee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T06:53:48.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\LikeLionfolder\\LikeLion\\Task250306\\Task250306\\Program.cs",
+              "RelativeDocumentMoniker": "Task250306\\Program.cs",
+              "ToolTip": "C:\\LikeLionfolder\\LikeLion\\Task250306\\Task250306\\Program.cs",
+              "RelativeToolTip": "Task250306\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T06:47:12.75Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

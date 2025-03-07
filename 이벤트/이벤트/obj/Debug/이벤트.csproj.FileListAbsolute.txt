@@ -1,0 +1,7 @@
+C:\LikeLionfolder\LikeLion\이벤트\이벤트\bin\Debug\이벤트.exe.config
+C:\LikeLionfolder\LikeLion\이벤트\이벤트\bin\Debug\이벤트.exe
+C:\LikeLionfolder\LikeLion\이벤트\이벤트\bin\Debug\이벤트.pdb
+C:\LikeLionfolder\LikeLion\이벤트\이벤트\obj\Debug\이벤트.csproj.AssemblyReference.cache
+C:\LikeLionfolder\LikeLion\이벤트\이벤트\obj\Debug\이벤트.csproj.CoreCompileInputs.cache
+C:\LikeLionfolder\LikeLion\이벤트\이벤트\obj\Debug\이벤트.exe
+C:\LikeLionfolder\LikeLion\이벤트\이벤트\obj\Debug\이벤트.pdb

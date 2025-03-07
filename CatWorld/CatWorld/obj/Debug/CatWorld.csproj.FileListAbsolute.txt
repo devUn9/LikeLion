@@ -1,0 +1,7 @@
+C:\LikeLionfolder\LikeLion\CatWorld\CatWorld\bin\Debug\CatWorld.exe.config
+C:\LikeLionfolder\LikeLion\CatWorld\CatWorld\bin\Debug\CatWorld.exe
+C:\LikeLionfolder\LikeLion\CatWorld\CatWorld\bin\Debug\CatWorld.pdb
+C:\LikeLionfolder\LikeLion\CatWorld\CatWorld\obj\Debug\CatWorld.csproj.AssemblyReference.cache
+C:\LikeLionfolder\LikeLion\CatWorld\CatWorld\obj\Debug\CatWorld.csproj.CoreCompileInputs.cache
+C:\LikeLionfolder\LikeLion\CatWorld\CatWorld\obj\Debug\CatWorld.exe
+C:\LikeLionfolder\LikeLion\CatWorld\CatWorld\obj\Debug\CatWorld.pdb

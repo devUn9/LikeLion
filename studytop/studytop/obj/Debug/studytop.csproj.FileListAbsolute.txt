@@ -1,0 +1,7 @@
+C:\LikeLionfolder\LikeLion\studytop\studytop\obj\Debug\studytop.csproj.AssemblyReference.cache
+C:\LikeLionfolder\LikeLion\studytop\studytop\obj\Debug\studytop.csproj.CoreCompileInputs.cache
+C:\LikeLionfolder\LikeLion\studytop\studytop\bin\Debug\studytop.exe.config
+C:\LikeLionfolder\LikeLion\studytop\studytop\bin\Debug\studytop.exe
+C:\LikeLionfolder\LikeLion\studytop\studytop\bin\Debug\studytop.pdb
+C:\LikeLionfolder\LikeLion\studytop\studytop\obj\Debug\studytop.exe
+C:\LikeLionfolder\LikeLion\studytop\studytop\obj\Debug\studytop.pdb
