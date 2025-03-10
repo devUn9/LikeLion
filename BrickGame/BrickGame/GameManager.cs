@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BrickGame
 {
-    class GameManager
+    public class GameManager
     {
         Ball m_pBall = null;
         public void Initialize()

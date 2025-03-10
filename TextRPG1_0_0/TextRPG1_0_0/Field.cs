@@ -30,9 +30,15 @@ namespace TextRPG1_0_0
 
                 if (iInput == 4)
                     break;
-                if (iInput == 3)
+                if (iInput <= 3)
                 {
-
+                    //몬스터를 만들고
+                    //1번일때 초보몬스터
+                    //2번일때 중급몬스터
+                    //3번일때 고급몬스터
+                    CreateMonster(iInput);
+                    //싸운다
+                    Fight();
                 }
             }
 

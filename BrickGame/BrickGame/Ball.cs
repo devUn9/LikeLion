@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BrickGame
 {
-    class Ball
+    public class Ball
     {
         BALLDATA m_tBall = new BALLDATA();
         // 움직일 bar
