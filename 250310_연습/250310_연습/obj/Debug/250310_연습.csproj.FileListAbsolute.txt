@@ -1,0 +1,7 @@
+C:\LikeLionfolder\LikeLion\250310_연습\250310_연습\obj\Debug\250310_연습.csproj.AssemblyReference.cache
+C:\LikeLionfolder\LikeLion\250310_연습\250310_연습\obj\Debug\250310_연습.csproj.CoreCompileInputs.cache
+C:\LikeLionfolder\LikeLion\250310_연습\250310_연습\bin\Debug\250310_연습.exe.config
+C:\LikeLionfolder\LikeLion\250310_연습\250310_연습\bin\Debug\250310_연습.exe
+C:\LikeLionfolder\LikeLion\250310_연습\250310_연습\bin\Debug\250310_연습.pdb
+C:\LikeLionfolder\LikeLion\250310_연습\250310_연습\obj\Debug\250310_연습.exe
+C:\LikeLionfolder\LikeLion\250310_연습\250310_연습\obj\Debug\250310_연습.pdb
